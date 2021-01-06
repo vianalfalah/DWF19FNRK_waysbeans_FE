@@ -1,0 +1,114 @@
+.page-home {
+  position: relative;
+  /* width: 1440px;
+  height: 1023px; */
+  background: #ffffff;
+}
+.jumbotron {
+  width: 1048px;
+  height: 1023px;
+  margin: auto;
+  margin-bottom: 42px;
+}
+
+.back1 {
+  position: relative;
+  width: 980px;
+  height: 400px;
+  margin-top: 164px;
+  background: #dbb699;
+  margin-left: 156px;
+}
+
+.back2 {
+  position: absolute;
+  width: 432px;
+  height: 272px;
+  left: 616px;
+  top: 28px;
+}
+
+/* BEST QUALITY COFFEE BEANS */
+
+.best {
+  position: absolute;
+  width: 400px;
+  height: 33px;
+  left: 63px;
+  top: 210px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+/* Quality freshly roasted coffee made just for you. Pour, brew and enjoy */
+
+.quality {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 63px;
+  top: 269px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.navbar-header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.ways {
+  position: absolute;
+  left: 60px;
+  top: 56px;
+  background: transparent;
+}
+
+.jumbotron .logo {
+  position: absolute;
+  width: 473px;
+  height: 145px;
+  left: 60px;
+  top: 56px;
+}
+
+.waves-box {
+  position: absolute;
+  top: 272.1px;
+  left: 523px;
+}
+
+.list-container .wrapper-list-product {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.list-container .btn-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+
+  font-family: Poppins;
+  font-weight: 500;
+  color: white;
+  background: #613d2b;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}

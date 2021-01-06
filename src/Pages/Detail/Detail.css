@@ -1,0 +1,99 @@
+.page-detail {
+  position: relative;
+  background: #ffffff;
+}
+.form-detail {
+  position: absolute;
+  width: 1035px;
+  height: 550px;
+  left: 195px;
+  top: 40px;
+}
+
+.form-detail .img {
+  position: absolute;
+  width: 436px;
+  height: 500px;
+}
+
+.form-detail .title {
+  position: absolute;
+  width: 500px;
+  height: 66px;
+  left: 490px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 66px;
+  /* identical to box height */
+
+  color: #613d2b;
+}
+
+.form-detail .stock {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  left: 490px;
+  top: 80px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #974a4a;
+}
+
+.form-detail .desc {
+  position: absolute;
+  width: 544px;
+  height: 200px;
+  left: 490px;
+  top: 130px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.form-detail .price {
+  position: absolute;
+  width: 200px;
+  height: 33px;
+  left: 850px;
+  top: 390px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #974a4a;
+}
+
+.form-detail .add-cart {
+  position: absolute;
+  width: 544px;
+  height: 40px;
+  left: 490px;
+  top: 460px;
+  background-color: #613d2b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 32px;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,79 @@
+.table-income {
+  width: 85vw;
+  margin: auto;
+  border: 2px solid #828282;
+  margin-bottom: 50px;
+}
+
+.table-income tr th {
+  padding: 12px;
+  background-color: #e5e5e5;
+}
+
+.table-income tr th:nth-child(7) {
+  text-align: center;
+}
+
+.table-income tr td {
+  padding: 12px;
+}
+
+.table-income tr td.action-table {
+  text-align: center;
+}
+
+.table-income tr td.action-table div img {
+  width: 32px;
+}
+
+.btn-action {
+  border-radius: 5px;
+  color: #fff;
+  padding: 6px 12px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-action:hover {
+  opacity: 0.5;
+}
+
+.btn-action.successs {
+  background-color: #0acf83;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+.btn-action.cancell {
+  background-color: #ff0742;
+  border: none;
+  outline: none;
+  margin-right: 5px;
+}
+
+.successs {
+  color: white;
+}
+.cancell {
+  color: white;
+}
+.success {
+  color: #78a85a;
+}
+.cancel {
+  color: #e83939;
+}
+.on-the-way {
+  color: black;
+  background-color: #00d1ff;
+}
+.waiting-approve {
+  color: #ff9900;
+}
+
+.item-center {
+  justify-content: center;
+  display: flex;
+}
+.send {
+  width: 50px;
+}

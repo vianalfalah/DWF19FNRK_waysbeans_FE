@@ -1,0 +1,247 @@
+/* Rectangle 1 */
+.page-add {
+  position: relative;
+  width: 1440px;
+  height: 807px;
+
+  background: #ffffff;
+}
+.form-product .title-add {
+  position: absolute;
+  width: 200px;
+  height: 33px;
+  left: 195px;
+  top: 157px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #613d2b;
+}
+
+.form-product .add-name {
+  position: absolute;
+  width: 472px;
+  height: 50px;
+  left: 195px;
+  top: 221px;
+  padding-left: 12px;
+
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-product .add-stock {
+  position: absolute;
+  width: 472px;
+  height: 50px;
+  left: 195px;
+  top: 291px;
+  padding-left: 12px;
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-product .add-price {
+  position: absolute;
+  width: 472px;
+  height: 50px;
+  left: 195px;
+  top: 361px;
+  padding-left: 12px;
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-product .add-desc {
+  position: absolute;
+  width: 472px;
+  height: 122px;
+  left: 195px;
+  top: 431px;
+  padding-left: 12px;
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-product .add-file {
+  position: absolute;
+  width: 190px;
+  height: 50px;
+  left: 195px;
+  top: 573px;
+
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-product .btn-add {
+  position: absolute;
+  width: 260px;
+  height: 40px;
+  left: 301px;
+  top: 677px;
+
+  background: #613d2b;
+  border-radius: 5px;
+}
+
+.form-product .add-file .add-photo {
+  position: absolute;
+  width: 117px;
+  height: 25px;
+  left: 205px;
+  top: 586px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: rgba(97, 61, 43, 0.5);
+}
+
+.img-add {
+  position: absolute;
+  width: 436px;
+  height: 555px;
+  left: 759px;
+  top: 126px;
+  border: 2px solid #613d2b;
+  border-radius: 5px;
+}
+
+.font-desc {
+  position: absolute;
+  width: 162px;
+  height: 25px;
+  left: 205px;
+  top: 444px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: rgba(97, 61, 43, 0.5);
+}
+
+.font-add-file {
+  position: absolute;
+  width: 117px;
+  height: 25px;
+  left: 10px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: rgba(97, 61, 43, 0.5);
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.photo-file {
+  width: 200px !important;
+}
+.input-file {
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: primary;
+  padding: 13px 10px;
+  margin-top: 20px;
+  width: 472px;
+}
+
+.none {
+  display: none !important;
+}
+
+.icon {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  left: 160px;
+  top: 16px;
+  color: #613d2b;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.nf {
+  width: 200px;
+  height: 25px;
+  padding-top: 11px;
+  font-family: Poppins;
+  font-weight: normal;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: rgba(97, 61, 43, 0.5);
+}
+
+.modal-add {
+  position: relative;
+  width: 300px;
+  height: 78px;
+  left: -100px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.modal-add .title {
+  position: absolute;
+  width: 300px;
+  height: 63px;
+  left: 36px;
+  top: 8px;
+  left: 200px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #469f74;
+}

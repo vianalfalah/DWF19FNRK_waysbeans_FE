@@ -1,0 +1,62 @@
+.title-reg {
+  padding-left: 8px;
+  font-weight: bold;
+  color: #613d2b;
+}
+
+.form-reg .input-reg {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 466px;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.form-reg .input-reg .box-input {
+  margin-bottom: 16px;
+  height: 50px;
+  width: 450px;
+  padding-left: 12px;
+  border-radius: 8px;
+  border: 2px solid #613d2b;
+  outline: none;
+  background: rgba(97, 61, 43, 0.25);
+}
+
+.form-reg .btn-reg-grp {
+  display: flex;
+  justify-content: center;
+}
+
+.form-reg .btn-reg-grp .btn-close {
+  width: 170px;
+  height: 42px;
+  border-radius: 8px;
+  border: 2px solid #613d2b;
+  background-color: transparent;
+  color: #613d2b;
+  font-weight: bold;
+  margin-right: 5px;
+  outline: none;
+}
+
+.form-reg .btn-reg-grp .btn-register {
+  width: 170px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: #613d2b;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+  outline: none;
+}
+
+.reg-log {
+  text-align: center;
+  margin-top: 32px;
+}
+.reg-log .to-log b {
+  cursor: pointer;
+  user-select: none;
+}

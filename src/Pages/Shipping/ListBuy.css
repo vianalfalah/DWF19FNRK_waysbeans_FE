@@ -1,0 +1,72 @@
+.card-ship {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6e6da;
+  padding: 14px 24px;
+  margin-bottom: 10px;
+  height: 145px;
+  align-items: center;
+}
+.card-ship .row {
+  display: flex;
+  flex-direction: row;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.ship-img {
+  width: 90px;
+  height: 98%;
+  margin-left: 12px;
+}
+.ship-name {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  color: #613d2b;
+  margin-top: 8px;
+}
+
+.bon {
+  margin-top: 20px;
+}
+
+.ship-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #974a4a;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.mt-21 {
+  margin-top: 21px;
+}
+.ml-13 {
+  margin-left: 13px;
+}
+.total-ship {
+  font-weight: 800;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.ship-logo {
+  width: 73px;
+  height: 22px;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+}
+
+.qr-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}

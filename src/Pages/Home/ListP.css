@@ -1,0 +1,69 @@
+.marg {
+  left: 196px;
+}
+.c-list-card {
+  width: 241px;
+  height: 410px;
+  max-width: 241px;
+  background: #f7e6da;
+  margin-bottom: 24px;
+}
+.c-list-card-img {
+  position: relative;
+  width: 241px;
+  height: 312px;
+}
+.c-list-card-title {
+  position: absolute;
+  max-width: 241px;
+  height: 25px;
+  top: 326px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #613d2b;
+}
+.c-list-card-price {
+  position: absolute;
+  max-width: 241px;
+  height: 19px;
+
+  top: 362px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #974a4a;
+}
+
+.c-list-card-stock {
+  position: absolute;
+  max-width: 241px;
+  height: 19px;
+
+  top: 386px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #974a4a;
+}
+
+.wrapper-list-product {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
