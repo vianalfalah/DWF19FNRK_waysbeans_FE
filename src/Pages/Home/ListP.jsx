@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import format from "../../configs/formatCurency";
 import { API } from "../../configs/api";
+import { baseURL } from "../../configs/services";
 import "./ListP.css";
 
 const ListP = () => {
@@ -41,7 +42,7 @@ const ListP = () => {
               <Card.Img
                 className="c-list-card-img"
                 variant="top"
-                src={`${"http://localhost:5000/uploads/"}${product.photo}`}
+                src={`${baseURL}${product.photo}`}
               />
               <Card.Body>
                 <Card.Text className="c-list-card-title">

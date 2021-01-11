@@ -4,6 +4,7 @@
 
   background: #ffffff;
 }
+
 .form .title-ship {
   position: absolute;
 
@@ -116,6 +117,7 @@
   padding: 8px 32px;
   font-weight: bold;
   transition: 0.2s ease-in-out;
+  bottom: 25px;
 }
 .form .box-product {
   position: absolute;
