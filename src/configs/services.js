@@ -1,7 +1,8 @@
 import { API, setAuthToken } from "../configs/api";
 
 // for image and static file
-export const baseURL = "https://dw19fnrk-waysbeans-api.herokuapp.com/uploads/";
+export const baseURL =
+  "https://github.com/vianalfalah/DWF19FNRK_waysbeans_api/blob/master/uploads/";
 
 export const login = async (dispatch, body, seterrLogin) => {
   try {
