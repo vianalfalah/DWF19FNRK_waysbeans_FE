@@ -58,11 +58,7 @@ function DetailProduct() {
       <div className="page-detail" style={{ marginTop: 80 }}>
         <div className="form-detail">
           <div>
-            <img
-              src={`${baseURL}${product.photo}`}
-              alt={product.id}
-              className="img"
-            />
+            <img src={product.photo} alt={product.id} className="img" />
           </div>
           <p className="title">{product.name}</p>
           <p className="stock">Stock : {product.stock}</p>
