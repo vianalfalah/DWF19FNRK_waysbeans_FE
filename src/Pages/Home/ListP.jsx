@@ -42,8 +42,7 @@ const ListP = () => {
               <Card.Img
                 className="c-list-card-img"
                 variant="top"
-                src={product.photo}
-                alt={product.id}
+                src={`${baseURL}${product.photo}`}
               />
               <Card.Body>
                 <Card.Text className="c-list-card-title">
