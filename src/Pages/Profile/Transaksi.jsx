@@ -10,8 +10,8 @@ function Transaksi({ transaction }) {
   const [show, setShow] = useState(false);
 
   const handleClick = () => {
-    setStatus("Success");
     editStatusTransaction(transaction.id, { status: "Success" });
+    setStatus("Success");
   };
 
   const Status = ({ type }) => {
