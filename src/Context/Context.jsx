@@ -23,10 +23,12 @@ const reducer = (state, action) => {
         isLogin: true,
       };
     case "LOGOUT":
+      localStorage.removeItem("cart");
       return {
         ...state,
         user: null,
         isLogin: false,
+        carts: [],
       };
     case "LOADED":
       return {
