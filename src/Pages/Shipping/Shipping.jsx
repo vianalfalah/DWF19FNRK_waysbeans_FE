@@ -86,83 +86,76 @@ function Shipping() {
   return (
     <div className="page-ship">
       <Navbar />
-
-      <Card>
-        <Form className="form">
-          <p className="title-ship">Shipping</p>
-          <input
-            type="text"
-            name="name"
-            className="add-name"
-            placeholder="Name"
-            value={formData.name}
-            onChange={(e) => handleChange(e)}
-          />
-          <input
-            type="email"
-            name="email"
-            className="add-email"
-            placeholder="email"
-            value={formData.email}
-            onChange={(e) => handleChange(e)}
-          />
-          <input
-            type="number"
-            name="phone"
-            className="add-phone"
-            placeholder="Phone"
-            value={formData.phone}
-            onChange={(e) => handleChange(e)}
-          />
-          <input
-            type="text"
-            name="pos"
-            className="add-pos"
-            placeholder="Post Code"
-            value={formData.pos}
-            onChange={(e) => handleChange(e)}
-          />
-          <textarea
-            type="text"
-            name="address"
-            className="add-address"
-            placeholder="Address"
-            value={formData.address}
-            onChange={(e) => handleChange(e)}
-          ></textarea>
-          <label htmlFor="file" className="cursor add-file">
-            <div className="space-between align-center">
-              <p className="ns">{formData.attachment.name}</p>
-              <i className="fas icon2 fa-paperclip"></i>
-            </div>
-            <input
-              type="file"
-              name="attachment"
-              className="none"
-              id="file"
-              onChange={(e) => handleChange(e)}
-            />
-          </label>
-          <div className="box-product">
-            <div className="box-ship">
-              {carts
-                ? carts.map((product, index) => (
-                    <ListBuy dataProduct={product} key={index} />
-                  ))
-                : null}
-            </div>
-            <Button className="btn-pay" onClick={onPay}>
-              Pay
-            </Button>
+      <Form className="form">
+        <p className="title-ship">Shipping</p>
+        <input
+          type="text"
+          name="name"
+          className="add-name"
+          placeholder="Name"
+          value={formData.name}
+          onChange={(e) => handleChange(e)}
+        />
+        <input
+          type="email"
+          name="email"
+          className="add-email"
+          placeholder="email"
+          value={formData.email}
+          onChange={(e) => handleChange(e)}
+        />
+        <input
+          type="number"
+          name="phone"
+          className="add-phone"
+          placeholder="Phone"
+          value={formData.phone}
+          onChange={(e) => handleChange(e)}
+        />
+        <input
+          type="text"
+          name="pos"
+          className="add-pos"
+          placeholder="Post Code"
+          value={formData.pos}
+          onChange={(e) => handleChange(e)}
+        />
+        <textarea
+          type="text"
+          name="address"
+          className="add-address"
+          placeholder="Address"
+          value={formData.address}
+          onChange={(e) => handleChange(e)}
+        ></textarea>
+        <label htmlFor="file" className="cursor add-file">
+          <div className="space-between align-center">
+            <p className="ns">{formData.attachment.name}</p>
+            <i className="fas icon2 fa-paperclip"></i>
           </div>
-
-          <ModalShip
-            show={modalShow}
-            setShow={setModalShow}
-            custom={redirect}
+          <input
+            type="file"
+            name="attachment"
+            className="none"
+            id="file"
+            onChange={(e) => handleChange(e)}
           />
-        </Form>
-      </Card>
+        </label>
+        <div className="box-product">
+          <div className="box-ship">
+            {carts
+              ? carts.map((product, index) => (
+                  <ListBuy dataProduct={product} key={index} />
+                ))
+              : null}
+          </div>
+          <Button className="btn-pay" onClick={onPay}>
+            Pay
+          </Button>
+        </div>
+
+        <ModalShip show={modalShow} setShow={setModalShow} custom={redirect} />
+      </Form>
     </div>
   );
 }
