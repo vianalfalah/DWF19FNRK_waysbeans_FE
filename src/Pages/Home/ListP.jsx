@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import format from "../../configs/formatCurency";
 import { API } from "../../configs/api";
-import { baseURL } from "../../configs/services";
+
 import "./ListP.css";
 
 const ListP = () => {
