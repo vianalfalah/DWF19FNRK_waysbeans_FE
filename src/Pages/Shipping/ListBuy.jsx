@@ -33,11 +33,7 @@ function ListBuy({ children, dataProduct, ready, dataTransactions }) {
       {console.log(transactions)}
       <div className="row">
         <div className="align-center">
-          <img
-            src={`${baseURL}${product.photo}`}
-            className="ship-img"
-            alt={product.name}
-          />
+          <img src={product.photo} className="ship-img" alt={product.name} />
         </div>
         <div className="ml-13">
           <h5 className="ship-name">{product.name}</h5>
