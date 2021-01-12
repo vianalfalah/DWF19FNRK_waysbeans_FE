@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from "react";
 import Header from "./../../elements/Header/Header";
 import { Context } from "../../Context/Context";
-import { getProductById, baseURL } from "../../configs/services";
+import { getProductById } from "../../configs/services";
 import { useParams } from "react-router-dom";
 import ModalLogin from "../../elements/Login";
 import ModalRegister from "../../elements/Regis";
