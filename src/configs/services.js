@@ -117,8 +117,6 @@ export const editStatusTransaction = (id, status) => {
   API.patch(`transaction/${id}`, status)
     .then((res) => console.log(res))
     .catch((err) => console.log(err));
-
-  window.location.href = "/profile";
 };
 
 export const addTransaction = (data, cbSuccess) => {

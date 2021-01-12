@@ -9,9 +9,10 @@ function Transaksi({ transaction }) {
   const [status, setStatus] = useState(transaction.status);
   const [show, setShow] = useState(false);
 
-  const handleClick = () => {
-    editStatusTransaction(transaction.id, { status: "Success" });
-    setStatus("Success");
+  const handleClick = (status) => {
+    editStatusTransaction(transaction.id, { status });
+    setStatus(status);
+    window.location.href = "/profile";
   };
 
   const Status = ({ type }) => {
@@ -57,7 +58,7 @@ function Transaksi({ transaction }) {
         </p>
         <button
           className="btn mb-3"
-          onClick={handleClick}
+          onClick={() => handleClick("Success")}
           style={{
             display: "flex",
             justifyContent: "center",
