@@ -43,11 +43,13 @@ function Profile() {
         <div className="profile-page-width-con-right">
           <h2 className="profile-page-title">My Transactions</h2>
           <div className="trans">
-            {transactions.length > 0
-              ? transactions.map((transaction, index) => {
-                  return <Transaksi transaction={transaction} key={index} />;
-                })
-              : "Belum Ada Transaksi"}
+            {transactions.length > 0 ? (
+              transactions.map((transaction, index) => {
+                return <Transaksi transaction={transaction} key={index} />;
+              })
+            ) : (
+              <p>Belum Ada Transaksi</p>
+            )}
           </div>
         </div>
       </div>

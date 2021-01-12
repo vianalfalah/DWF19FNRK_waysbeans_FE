@@ -14,6 +14,7 @@
 .profile-section-wrapper .box-profile .detail-profile {
   display: flex;
 }
+
 .profile-section-wrapper .box-profile .detail-profile .pict {
   margin-right: 24px;
   border-radius: 8px;
@@ -27,6 +28,7 @@
   font-weight: bold;
   color: #613d2b;
 }
+
 .profile-section-wrapper .box-profile .detail-profile .profile-data .sub-value {
   color: #000;
 }
@@ -45,4 +47,11 @@
   padding: 16px;
   background-color: #eee;
   border-radius: 8px;
+}
+
+.profile-section-wrapper .profile-page-width-con-right .trans p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
 }
