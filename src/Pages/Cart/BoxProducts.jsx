@@ -60,11 +60,7 @@ function BoxProducts({ dataProduct }) {
     <div className="space-between" style={{ marginBottom: 20 }}>
       <div className="order-qty">
         <div>
-          <img
-            src={`${baseURL}${product.photo}`}
-            alt="contoh"
-            className="img-products"
-          />
+          <img src={product.photo} alt="contoh" className="img-products" />
         </div>
         <div
           className="set-cart"
