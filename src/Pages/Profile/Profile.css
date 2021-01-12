@@ -52,6 +52,6 @@
 .profile-section-wrapper .profile-page-width-con-right .trans .null {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 200px;
   font-size: 26px;
 }
