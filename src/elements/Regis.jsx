@@ -30,7 +30,6 @@ function ModalRegister({ show, setShow, switchModal, dispatch }) {
     e.preventDefault();
     register(dispatch, formData, seterrRegis);
     console.log(onRegister);
-    window.location.href = "/";
   };
   const handleClose = () => setShow(false);
 
