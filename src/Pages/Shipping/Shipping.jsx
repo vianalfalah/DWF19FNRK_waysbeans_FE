@@ -3,7 +3,7 @@ import { useState, useContext, useEffect } from "react";
 import { Context } from "../../Context/Context";
 import { useHistory } from "react-router-dom";
 import { addTransaction } from "../../configs/services";
-import { Form, Card, Button, Modal } from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
 import ListBuy from "./ListBuy";
 import "./Shipping.css";
 import Navbar from "../../elements/Header/Header";
@@ -86,7 +86,7 @@ function Shipping() {
   return (
     <div className="page-ship">
       <Navbar />
-      <Form className="form">
+      <div className="form">
         <p className="title-ship">Shipping</p>
         <input
           type="text"
@@ -155,7 +155,7 @@ function Shipping() {
         </div>
 
         <ModalShip show={modalShow} setShow={setModalShow} custom={redirect} />
-      </Form>
+      </div>
     </div>
   );
 }
