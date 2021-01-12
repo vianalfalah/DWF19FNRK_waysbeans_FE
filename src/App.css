@@ -5,6 +5,7 @@
 
 .main-container {
   font-family: Poppins;
+  margin-bottom: 50px;
 }
 ::-webkit-scrollbar {
   width: 5px;

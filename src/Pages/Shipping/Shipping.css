@@ -5,6 +5,10 @@
   background: #ffffff;
 }
 
+.form {
+  margin-bottom: 50px;
+}
+
 .form .title-ship {
   position: absolute;
 
