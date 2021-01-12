@@ -35,6 +35,7 @@ export const register = async (dispatch, body, seterrRegis) => {
       type: "LOGIN",
       payload: { ...getProfile.data.data.profile },
     });
+    window.location.href = "/",
   } catch (error) {
     seterrRegis(true);
     console.log(error);
