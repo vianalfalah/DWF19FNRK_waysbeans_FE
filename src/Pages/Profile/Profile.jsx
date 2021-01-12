@@ -48,7 +48,9 @@ function Profile() {
                 return <Transaksi transaction={transaction} key={index} />;
               })
             ) : (
-              <p>Belum Ada Transaksi</p>
+              <div className="null">
+                <p>Belum Ada Transaksi</p>
+              </div>
             )}
           </div>
         </div>
