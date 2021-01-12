@@ -47,7 +47,7 @@ function Profile() {
               ? transactions.map((transaction, index) => {
                   return <Transaksi transaction={transaction} key={index} />;
                 })
-              : null}
+              : "Belum Ada Transaksi"}
           </div>
         </div>
       </div>
