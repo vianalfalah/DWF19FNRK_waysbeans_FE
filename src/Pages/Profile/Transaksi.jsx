@@ -12,7 +12,6 @@ function Transaksi({ transaction }) {
   const handleClick = (status) => {
     editStatusTransaction(transaction.id, { status });
     setStatus(status);
-    window.location.href = "/profile";
   };
 
   const Status = ({ type }) => {
