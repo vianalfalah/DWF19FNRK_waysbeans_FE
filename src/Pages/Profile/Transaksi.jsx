@@ -9,11 +9,6 @@ function Transaksi({ transaction }) {
   const [status, setStatus] = useState(transaction.status);
   const [show, setShow] = useState(false);
 
-  const handleClick = (status) => {
-    editStatusTransaction(transaction.id, { status });
-    setStatus(status);
-  };
-
   const Status = ({ type }) => {
     return (
       <div className="status">
@@ -39,6 +34,10 @@ function Transaksi({ transaction }) {
 
   const handleOpenModal = () => {
     setShow(!show);
+  };
+  const handleClick = (status) => {
+    editStatusTransaction(transaction.id, { status });
+    setStatus(status);
   };
 
   const ModalConfirm = () => {
